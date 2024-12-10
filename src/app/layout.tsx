@@ -14,6 +14,11 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Guru",
   description: "Portfólio",
+  icons: {
+    icon: '/guru-portfolio/favicon.ico', // Adicionado o caminho do favicon
+    shortcut: '/guru-portfolio/favicon.ico', // Opcional: para compatibilidade
+    apple: '/guru-portfolio/favicon.ico', // Opcional: para dispositivos Apple
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
