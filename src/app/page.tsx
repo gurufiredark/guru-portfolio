@@ -60,8 +60,7 @@ const Home = () => {
           </span>
         </h1>
         <p className="text-xl mt-4 hover:text-gray-300 transition-colors duration-300">
-          Sou apaixonado por desenvolvimento de software <br /> 
-          e gosto de aprender novas coisas.
+          Desenvolvedor e Engenheiro de Software <br/> Motivado por tecnologia e inovação.
         </p>
         <div className="flex flex-col items-center justify-center p-6 gap-4">
           <Button 
