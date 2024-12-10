@@ -36,7 +36,7 @@ const About = () => {
             <div className="flex flex-row items-center gap-4">
                 <div className="flex-1 flex flex-col items-center justify-center gap-4">
                     <Image 
-                        src="/imgs/toji.png" 
+                        src="/guru-portfolio/imgs/toji.png" 
                         alt="Imagem esquerda" 
                         width={600}
                         height={400}
@@ -77,7 +77,7 @@ const About = () => {
 
                 <div className="flex-1 flex items-center justify-center" >
                     <Image 
-                        src="/imgs/gojo2.png" 
+                        src="/guru-portfolio/imgs/gojo2.png" 
                         alt="Imagem direita" 
                         width={600}
                         height={400}

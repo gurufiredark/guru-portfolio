@@ -16,7 +16,7 @@ const Hobbies = () => {
             <div className="flex flex-row items-center gap-4">
                 <div className="flex-1 flex-col items-center justify-center gap-4">
                     <Image 
-                        src="/imgs/luffy.png" 
+                        src="/guru-portfolio/imgs/luffy.png" 
                         alt="Imagem esquerda" 
                         width={600}
                         height={400}
@@ -48,7 +48,7 @@ const Hobbies = () => {
                     </span>
                     
                     <Image 
-                        src="/imgs/deathkid.png" 
+                        src="/guru-portfolio/imgs/deathkid.png" 
                         alt="Imagem esquerda" 
                         width={600}
                         height={400}
@@ -58,7 +58,7 @@ const Hobbies = () => {
 
                 <div className="flex-1 flex-col items-center justify-center" >
                 <Image 
-                    src="/imgs/madara1.png" 
+                    src="/guru-portfolio/imgs/madara1.png" 
                     alt="Imagem direita" 
                     width={700}
                     height={400}

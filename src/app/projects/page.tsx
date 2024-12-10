@@ -25,7 +25,7 @@ const Projects = () => {
         <div className="flex flex-col h-full items-center justify-center">
           <div className="relative w-[600px] h-[600px]">
             <Image
-              src="/imgs/zoro.png"
+              src="/guru-portfolio/imgs/zoro.png"
               alt="Zoro"
               width={600}
               height={600}

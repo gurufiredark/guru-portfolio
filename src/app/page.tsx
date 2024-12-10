@@ -31,7 +31,7 @@ const Home = () => {
             onClick={() => setIsClicked(!isClicked)}
           >
             <Image 
-              src="/imgs/gojo.png"
+              src="/guru-portfolio/imgs/gojo.png"
               alt="Gojo"
               width={448}  
               height={448}
@@ -39,7 +39,7 @@ const Home = () => {
                 ${showSecondImage ? "opacity-0 blur-xl" : "opacity-100 blur-0"}`}
             />
             <Image 
-              src="/imgs/eu.png"
+              src="/guru-portfolio/imgs/eu.png"
               alt="Gabriel"
               width={448}
               height={448}
