@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import React, { useState, useEffect } from 'react';
 
 
@@ -15,7 +15,13 @@ const Hobbies = () => {
         ${ isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}`}>
             <div className="flex flex-row items-center gap-4">
                 <div className="flex-1 flex-col items-center justify-center gap-4">
-                    <img src="/imgs/luffy.png" alt="Imagem esquerda" className="w-full max-w-[600px] rounded-lg shadow-md" />
+                    <Image 
+                        src="/imgs/luffy.png" 
+                        alt="Imagem esquerda" 
+                        width={600}
+                        height={400}
+                        className="w-full max-w-[600px] rounded-lg shadow-md" 
+                    />
                 </div>
                 
                 <div className="flex flex-col items-center justify-center max-w-md gap-4">
@@ -41,12 +47,23 @@ const Hobbies = () => {
                     Esses interesses complementam minha paixão pela tecnologia, trazendo criatividade e equilíbrio à minha jornada profissional e pessoal.
                     </span>
                     
-                    <img src="/imgs/deathkid.png" alt="Imagem esquerda" className="w-full h-full rounded-lg shadow-md" />
+                    <Image 
+                        src="/imgs/deathkid.png" 
+                        alt="Imagem esquerda" 
+                        width={600}
+                        height={400}
+                        className="w-full h-full rounded-lg shadow-md" 
+                    />
                 </div>
 
                 <div className="flex-1 flex-col items-center justify-center" >
-                <img src="/imgs/madara1.png" alt="Imagem direita" className="w-full h-full max-w-[700px] rounded-lg shadow-md" />
-
+                <Image 
+                    src="/imgs/madara1.png" 
+                    alt="Imagem direita" 
+                    width={700}
+                    height={400}
+                    className="w-full h-full max-w-[700px] rounded-lg shadow-md" 
+                />
                 </div>
             </div>
             

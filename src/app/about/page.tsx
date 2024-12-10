@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import React, { useState, useEffect } from 'react';
 
 
@@ -35,7 +35,13 @@ const About = () => {
         ${ isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}`}>
             <div className="flex flex-row items-center gap-4">
                 <div className="flex-1 flex flex-col items-center justify-center gap-4">
-                    <img src="/imgs/toji.png" alt="Imagem esquerda" className="w-5/6 max-w-[600px] rounded-lg shadow-md" />
+                    <Image 
+                        src="/imgs/toji.png" 
+                        alt="Imagem esquerda" 
+                        width={600}
+                        height={400}
+                        className="w-5/6 max-w-[600px] rounded-lg shadow-md" 
+                    />
                 </div>
                 
                 <div className="flex flex-col items-center justify-center max-w-md gap-4">
@@ -70,7 +76,13 @@ const About = () => {
                 </div>
 
                 <div className="flex-1 flex items-center justify-center" >
-                    <img src="/imgs/gojo2.png" alt="Imagem direita" className="w-5/6 max-w-[600px] rounded-lg shadow-md" />
+                    <Image 
+                        src="/imgs/gojo2.png" 
+                        alt="Imagem direita" 
+                        width={600}
+                        height={400}
+                        className="w-5/6 max-w-[600px] rounded-lg shadow-md" 
+                    />
                 </div>
             </div>
             

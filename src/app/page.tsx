@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
@@ -29,17 +30,21 @@ const Home = () => {
             onMouseLeave={() => setIsHovered(false)}
             onClick={() => setIsClicked(!isClicked)}
           >
-            <img 
+            <Image 
               src="/imgs/Gojo.png"
               alt="Gojo"
+              width={448}  // 28rem = 448px
+              height={448}
               className={`absolute w-full h-full object-contain transition-all duration-500 scale-125
-                ${showSecondImage ? 'opacity-0 blur-xl' : 'opacity-100 blur-0'}`}
+                ${showSecondImage ? "opacity-0 blur-xl" : "opacity-100 blur-0"}`}
             />
-            <img 
+            <Image 
               src="/imgs/eu.png"
               alt="Gabriel"
+              width={448}
+              height={448}
               className={`absolute w-full h-full object-cover transition-all duration-500
-                ${showSecondImage ? 'opacity-100 blur-0' : 'opacity-0 blur-xl'}`}
+                ${showSecondImage ? "opacity-100 blur-0" : "opacity-0 blur-xl"}`}
             />
           </div>
         </div>
