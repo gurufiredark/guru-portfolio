@@ -12,8 +12,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Guru Portifólio",
-  description: "Projeto Portifólio",
+  title: "Guru",
+  description: "Portfólio",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

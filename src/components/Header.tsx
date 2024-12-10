@@ -7,7 +7,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/projects", label: "Projects" },
-  { href: "/contact", label: "Contact" },
+  { href: "/hobbies", label: "Hobbies" },
 ];
 
 const Header = () => {
@@ -15,11 +15,6 @@ const Header = () => {
   return (
     <header className="bg-black text-white sticky top-0 w-full z-50 border-b border-white/20">
       <nav className="container bg-black mx-auto flex items-center justify-between p-6 gap-4">
-        <div className="text-xl font-bold">
-          <Link href="/" className="hover:text-purple-600 cursor-pointer">
-            Nigga
-          </Link>
-        </div>
         {links.map((link, index) => {
           return (
             <Link
