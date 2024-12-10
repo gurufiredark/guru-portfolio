@@ -37,7 +37,7 @@ const Hobbies = () => {
                             <br/>Alguns dos meus Jogos favoritos são: Valorant, Counter-Strike 2, Call Of Duty, League of Legends, Fortnite, DB FighterZ, entre outros.
                     </span>
                     
-                    <h1 className="flex flex-col justify-center text-2xl font-bold font-serif text-purple-600 mt-4">Esports</h1>
+                    <h1 className="flex flex-col justify-center text-2xl font-bold font-serif text-purple-600 mt-4">Esportes</h1>
                     <span className="text-white font-semibold hover:text-purple-300 transition-colors duration-300 ">
                     Tenho um grande interesse por esportes e valorizo a dedicação e o espírito competitivo que eles envolvem. Gosto de acompanhar e praticar atividades físicas que me mantenham ativo e focado.
                     <br/>Alguns dos meus Esports favoritos são: Futebol, MMA, Xadrez, entre outros.
