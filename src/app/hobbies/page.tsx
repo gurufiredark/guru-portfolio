@@ -12,7 +12,7 @@ const Hobbies = () => {
 
     return (
         <div className={`flex mx-auto items-center justify-center gap-8 min-h-screen bg-black transform transition-all duration-1000 
-        ${ isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}`}>
+        ${ isVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}`}>
             <div className="flex flex-row items-center gap-4">
                 <div className="flex-1 flex-col items-center justify-center gap-4">
                     <Image 
