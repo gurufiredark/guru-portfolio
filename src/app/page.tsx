@@ -31,9 +31,9 @@ const Home = () => {
             onClick={() => setIsClicked(!isClicked)}
           >
             <Image 
-              src="/imgs/Gojo.png"
+              src="/imgs/gojo.png"
               alt="Gojo"
-              width={448}  // 28rem = 448px
+              width={448}  
               height={448}
               className={`absolute w-full h-full object-contain transition-all duration-500 scale-125
                 ${showSecondImage ? "opacity-0 blur-xl" : "opacity-100 blur-0"}`}
