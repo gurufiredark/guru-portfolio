@@ -40,7 +40,7 @@ const Hobbies = () => {
                     <h1 className="text-xl lg:text-2xl font-bold font-serif text-purple-600 mt-4">Esportes</h1>
                     <span className="text-sm lg:text-base text-white font-semibold hover:text-purple-300 transition-colors duration-300 text-center lg:text-left">
                         Tenho um grande interesse por esportes e valorizo a dedicação e o espírito competitivo que eles envolvem. Gosto de acompanhar e praticar atividades físicas que me mantenham ativo e focado.
-                        <br className="hidden lg:block"/>Alguns dos meus Esports favoritos são: Futebol, MMA, Xadrez, entre outros.
+                        <br className="hidden lg:block"/>Esportes e atividades que costumo praticar: Futebol, musculção, caminhada, xadrez, entre outros.
                     </span>
                     
                     <span className="text-sm lg:text-base text-white font-semibold hover:text-purple-300 transition-colors duration-300 mt-4 text-center lg:text-left">
