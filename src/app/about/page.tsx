@@ -64,7 +64,7 @@ const About = () => {
                     
                     <h1 className="text-xl lg:text-2xl font-bold font-serif text-purple-600 mt-4">Soft Skills</h1>
                     <span className="text-sm lg:text-base text-white font-semibold hover:text-purple-300 transition-colors duration-300 w-full">
-                        Sou motivado pelo aprendizado contínuo, por isso sempre estou em busca aprimorar minhas habilidades técnicas e interpessoais, como:
+                        Sou motivado pelo aprendizado contínuo, por isso sempre estou em busca de aprimorar minhas habilidades técnicas e interpessoais, como:
                         <ul className="mt-2">
                             {listaSoftSkills.map((softskill, index) => (
                                 <li key={index} className="ml-6 list-disc">
