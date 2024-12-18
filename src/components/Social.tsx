@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -20,18 +19,18 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Social = () => {
   return (
-    <div className="flex flex-row items-center justify-center gap-4">
+    <div className="flex bg-black  flex-row items-center justify-center gap-4">
       {socialLinks.map((item, index) => {
         return (
-          <Link
+          <a
             key={index}
             href={item.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xl text-white hover:text-purple-500 transition-all duration-500"
+            className="text-xl text-white hover:text-purple-500 transform hover:scale-110 transition-transform duration-300"
           >
             {item.icon}
-          </Link>
+          </a>
         );
       })}
     </div>

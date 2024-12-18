@@ -2,6 +2,8 @@
 import Image from "next/image";
 import React, { useState, useEffect } from 'react';
 
+import Social from "@/components/Social";
+
 const Hobbies = () => {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -10,7 +12,7 @@ const Hobbies = () => {
     }, []);
 
     return (
-        <div className={`flex mx-auto items-center justify-center min-h-screen bg-black transform transition-all duration-1000 p-4 lg:p-8
+        <div className={`flex flex-col mx-auto items-center justify-center min-h-screen bg-black transform transition-all duration-1000 p-4 lg:p-8
         ${isVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}`}>
             <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-4 max-w-[1400px]">
                 
@@ -65,6 +67,11 @@ const Hobbies = () => {
                         className="w-full max-w-[400px] lg:max-w-[700px] rounded-lg shadow-md" 
                     />
                 </div>
+
+            </div>
+            
+            <div className="flex flex-col items-center justify-center gap-4 lg:gap-8 mt-8">
+                <Social />  
             </div>
         </div>
     );

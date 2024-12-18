@@ -2,6 +2,9 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
+import Project from "@/components/Project";
+import Social from "@/components/Social";
+
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -10,29 +13,64 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center gap-4 lg:gap-8 min-h-screen bg-black px-4">
-      <div className={`text-center text-white p-4 lg:p-6 transform transition-all duration-1000 ${
-        isVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
-      }`}>
-        <span className="text-2xl lg:text-4xl font-bold leading-snug inline-block hover:scale-105 hover:text-purple-300 transition-transform duration-300">
-          Em processo...
-        </span>
+    <div className="flex flex-col items-center justify-center gap-4 lg:gap-8 min-h-screen bg-black p-4 overflow-hidden">
+      <div
+        className={`flex flex-row flex-wrap items-center justify-center gap-6 lg:gap-8 text-center text-white p-4 lg:p-6 transform transition-all duration-1000 ${
+          isVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+        }`}
+      >
+        <Project
+          imagemSrc="/guru-portfolio/imgs/aapfolou.png"
+          title="AAP Folou"
+          descricao="Um sistema web e mobile é voltado para o publico de donos de pet e donos de petshops.
+          O sistema facilita a comunicação entre o dono do pet para a contratação de um serviço ou compra de um produto oferecido pelo petshop"
+          link="https://github.com/gurufiredark/aap-folou"
+        />
+        <Project
+          imagemSrc="/guru-portfolio/imgs/Feathers.png"
+          title="Projeto Feathers"
+          descricao="Projeto utilizando Feathers , TypeScript e React. 
+          Consiste em um registro de alunos e livros com a possibilidade de realizar empréstimos"
+          link="https://github.com/gurufiredark/ProjetoFeathers"
+        />
+        <Project
+          imagemSrc="/guru-portfolio/imgs/logoc.svg"
+          title="Compilador em C adaptado"
+          descricao="Um mini compilador em C adaptado para uma linguagem criada por mim "
+          link="https://github.com/gurufiredark/compiler_in_C"
+        />
+        <Project
+          imagemSrc="/guru-portfolio/imgs/CEP.png"
+          title="Consulta CEP"
+          descricao="Um sistema web que consulta o CEP e retorna o endereço através de uma API"
+          link="https://github.com/gurufiredark/ProjetoConsultaCep/tree/master"
+        />
+        
+        
       </div>
 
-      <div className={`transform transition-all duration-1000 p-4 lg:p-6 ${
-        isVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
-      }`}>
-        <div className="flex flex-col h-full items-center justify-center">
-          <div className="relative w-[280px] h-[280px] sm:w-[400px] sm:h-[400px] lg:w-[600px] lg:h-[600px]">
-            <Image
-              src="/guru-portfolio/imgs/zoro.png"
-              alt="Zoro"
-              width={600}
-              height={600}
-              className="absolute w-full h-full object-contain transition-all duration-500 scale-110 lg:scale-125"
-            />
-          </div>
+      <div
+        className={`flex flex-col transform items-center justify-center gap-4 transition-all duration-1000 p-4 lg:p-6 overflow-hidden ${
+          isVisible
+            ? "translate-x-0 opacity-100"
+            : "-translate-x-full opacity-0"
+        }`}
+      >
+  
+        <div className="w-[280px] h-[280px] sm:w-[400px] sm:h-[400px] lg:w-[600px] lg:h-[600px]">
+          <Image
+            src="/guru-portfolio/imgs/zoro.png"
+            alt="Zoro"
+            width={600}
+            height={600}
+            objectFit="contain"
+            className="transition-all duration-500"
+          />
         </div>
+
+      </div>
+      <div className="flex flex-col items-center justify-center gap-4 lg:gap-8 mt-8">
+          <Social />  
       </div>
     </div>
   );
