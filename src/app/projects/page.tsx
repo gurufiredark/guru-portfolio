@@ -24,29 +24,34 @@ const Projects = () => {
           title="AAP Folou"
           descricao="Um sistema web e mobile é voltado para o publico de donos de pet e donos de petshops.
           O sistema facilita a comunicação entre o dono do pet para a contratação de um serviço ou compra de um produto oferecido pelo petshop"
-          link="https://github.com/gurufiredark/aap-folou"
+          githubLink="https://github.com/gurufiredark/aap-folou"
         />
         <Project
           imagemSrc="/guru-portfolio/imgs/Feathers.png"
           title="Projeto Feathers"
           descricao="Projeto utilizando Feathers , TypeScript e React. 
           Consiste em um registro de alunos e livros com a possibilidade de realizar empréstimos"
-          link="https://github.com/gurufiredark/ProjetoFeathers"
+          githubLink="https://github.com/gurufiredark/ProjetoFeathers"
         />
         <Project
           imagemSrc="/guru-portfolio/imgs/logoc.svg"
           title="Compilador em C adaptado"
           descricao="Um mini compilador em C adaptado para uma linguagem criada por mim "
-          link="https://github.com/gurufiredark/compiler_in_C"
+          githubLink="https://github.com/gurufiredark/compiler_in_C"
         />
         <Project
           imagemSrc="/guru-portfolio/imgs/CEP.png"
           title="Consulta CEP"
           descricao="Um sistema web que consulta o CEP e retorna o endereço através de uma API"
-          link="https://github.com/gurufiredark/ProjetoConsultaCep/tree/master"
+          githubLink="https://github.com/gurufiredark/ProjetoConsultaCep/tree/master"
         />
-        
-        
+        <Project
+          imagemSrc="/guru-portfolio/imgs/weather.png"
+          title="WeatherApp"
+          descricao="WeatherApp é uma aplicação web que utiliza a API do OpenWeatherMap para exibir previsões meteorológicas em tempo real e previsões futuras de forma organizada e intuitiva."
+          githubLink="https://github.com/gurufiredark/weather-app"
+          deployLink="https://gurufiredark.github.io/weather-app/"
+        />
       </div>
 
       <div
