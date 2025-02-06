@@ -72,7 +72,7 @@ const Home = () => {
             size="lg" 
             className="bg-purple-600 text-white hover:bg-purple-700 hover:scale-105 transform transition-all duration-300 rounded-full uppercase text-sm lg:text-base"
           >
-            <a href="/guru-portfolio/CV-Gabriel-Rodrigues.pdf" download className="flex items-center">
+            <a href="/guru-portfolio/currículo-Gabriel-Rodrigues.pdf" download className="flex items-center">
               <span>Download CV</span>
               <FiDownload className="ml-2" />
             </a>
