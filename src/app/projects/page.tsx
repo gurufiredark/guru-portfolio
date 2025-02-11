@@ -52,6 +52,12 @@ const Projects = () => {
           githubLink="https://github.com/gurufiredark/weather-app"
           deployLink="https://gurufiredark.github.io/weather-app/"
         />
+        <Project
+          imagemSrc="/guru-portfolio/imgs/Go.png"
+          title="REST API GO"
+          descricao="Uma REST API em Go usando o framework Gin, estruturada em camadas (repository, usecase, controller) para gerenciar produtos em um banco de dados."
+          githubLink="https://github.com/gurufiredark/REST-API-Go"
+        />
       </div>
 
       <div
