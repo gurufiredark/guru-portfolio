@@ -61,7 +61,7 @@ const Projects = () => {
         <Project
           imagemSrc="/guru-portfolio/imgs/Spring.png"
           title="Sistema de Inscrição em Eventos"
-          descricao="Um sistema para gerenciar inscrições em eventos, onde os participantes podem gerar links de indicação, acompanhar quem se inscreveu pelo seu link e disputar um ranking de indicações."
+          descricao="Um sistema para gerenciar inscrições em eventos, onde os usuários podem gerar links de indicação, acompanhar outros inscritos pelo seu link e ver o ranking de indicações."
           githubLink="https://github.com/gurufiredark/student-eventify-nlw"
         />
       </div>
