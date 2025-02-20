@@ -58,6 +58,12 @@ const Projects = () => {
           descricao="Uma REST API em Go usando o framework Gin, estruturada em camadas (repository, usecase, controller) para gerenciar produtos em um banco de dados."
           githubLink="https://github.com/gurufiredark/REST-API-Go"
         />
+        <Project
+          imagemSrc="/guru-portfolio/imgs/Spring.png"
+          title="Sistema de Inscrição em Eventos"
+          descricao="Um sistema para gerenciar inscrições em eventos, onde os participantes podem gerar links de indicação, acompanhar quem se inscreveu pelo seu link e disputar um ranking de indicações."
+          githubLink="https://github.com/gurufiredark/student-eventify-nlw"
+        />
       </div>
 
       <div
