@@ -65,14 +65,14 @@ const Home = () => {
           </span>
         </h1>
         <p className="text-lg lg:text-xl mt-2 lg:mt-4 hover:text-gray-300 transition-colors duration-300">
-          Desenvolvedor e Engenheiro de Software <br className="hidden lg:block"/> Motivado por tecnologia e inovação.
+          Desenvolvedor e Engenheiro de Software <br className="hidden lg:block"/> Motivado por tecnologia e aprendizado.
         </p>
         <div className="flex flex-col items-center justify-center p-4 lg:p-6 gap-4">
           <Button 
             size="lg" 
             className="bg-purple-600 text-white hover:bg-purple-700 hover:scale-105 transform transition-all duration-300 rounded-full uppercase text-sm lg:text-base"
           >
-            <a href="/guru-portfolio/currículo-Gabriel-Rodrigues.pdf" download className="flex items-center">
+            <a href="/guru-portfolio/Gabriel_Rodrigues_curriculo.pdf" download className="flex items-center">
               <span>Download CV</span>
               <FiDownload className="ml-2" />
             </a>
